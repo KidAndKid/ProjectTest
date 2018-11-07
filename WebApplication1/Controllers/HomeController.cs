@@ -13,5 +13,10 @@ namespace WebApplication1.Models
         {
             return View();
         }
+
+        public ActionResult TestAction()
+        {
+            return View();
+        }
     }
 }
